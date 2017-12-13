@@ -1,5 +1,5 @@
-.container {
-  padding: 32px 48px 16px 48px !important;
+.container-custom {
+  padding: 32px 48px 16px 48px;
 }
 
 .container--pink {
@@ -18,6 +18,30 @@
   color: white;
 }
 
+.text-40 {
+  font-size: 40px;
+}
+
+.text-small {
+  font-size: 20px;
+}
+
+.text-bold {
+  font-weight: 700 !important;
+}
+
+.text-big {
+  font-size: 60px;
+}
+
+.text-regular {
+  font-weight: 500 !important;
+}
+
+.text-thin {
+  font-weight: 300 !important;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -33,19 +57,16 @@
 }
 
 h2 {
-  font-weight: 700 !important;
   margin: 0 !important;
 }
 
 h3 {
-  font-weight: 700 !important;
   margin: 0 !important;
 }
 
 h4 {
   color: #645C5C !important;
   font-size: 24px !important;
-  font-weight: 500 !important;
   margin: 0 !important;
 }
 
@@ -79,11 +100,15 @@ h4 {
 }
 
 .margin-bottom-16 {
-  margin-bottom: 16px;
+  margin-bottom: 16px !important;
+}
+
+.margin-bottom-96 {
+  margin-bottom: 96px;
 }
 
 .margin-bottom-32 {
-  margin-bottom: 32px;
+  margin-bottom: 32px !important;
 }
 
 .text-align-center {
@@ -124,19 +149,22 @@ h4 {
 
 .content__circle-text {
   font-size: 18px;
-  font-weight: 500;
   margin-top: 8px;
 }
 
 .content__button a {
-  background-color: #D8D8D8;
-  border-radius: 0;
+  background-color: #f4f0f0;
   border: 1px solid black;
+  border-radius: 30px;
   padding: 10px 60px 10px 60px;
 }
 
+.form-control {
+  background-color: #D8D8D8 !important;
+  border: 1px solid black !important;
+}
+
 .content__item-wrapper {
-  border: 1px solid black;
   padding: 32px;
 }
 
@@ -169,7 +197,8 @@ h4 {
 
 .test__item-upper {
   background-color: #F7CDCC;
-  height: 210px;
+  height: 250px;
+  padding: 32px;
 }
 
 .test__item-lower {
@@ -177,7 +206,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70px;
+  height: 120px;
 }
 
 .no-margin-bottom {
@@ -202,14 +231,14 @@ h4 {
   background-color: #C5BBB4;
   border-radius: 50%;
   position: relative;
-  height: 30px;
-  width: 30px;
+  height: 70px;
+  width: 70px;
 }
 
 .info__icon {
   color: white;
-  top: 6px;
-  left: 11px;
+  top: 16px;
+  left: 22px;
   position: absolute;
 }
 

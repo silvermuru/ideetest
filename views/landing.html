@@ -4,13 +4,13 @@
   <head>
     <meta charset="utf-8">
     <title>iDeeTest</title>
-    <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
   </head>
 
   <body>
-    <div class="container container--pink col-xs-8 col-xs-offset-2">
+    <div class="container-custom container--pink">
       <div class="header">
         <div class="header__title">
           <i class="fa fa-lightbulb-o fa-4x header__icon" aria-hidden="true"></i><h2>iDeeTest</h2>
@@ -23,171 +23,195 @@
       </div>
       <div class="content">
         <div class="text-white text-center">
-          <h2>Sinu arvamus loeb!</h2>
+          <h2 class="text-bold">Sinu arvamus loeb!</h2>
         </div>
         <div class="margin-top-32 text-center">
-          <h3>Aita luua uusi teenuseid ja tooteid ning kogu preemiapunkte. Mida rohkem vastad, seda enam võidad.</h3>
+          <h3 class="text-bold">Aita luua uusi teenuseid ja tooteid ning kogu preemiapunkte. Mida rohkem vastad, seda enam võidad.</h3>
         </div>
         <div class="content__body margin-top-32 text-center">
-          <h4>3 põhjust miks</h4>
-          <div class="content__circles margin-top-32 col-xs-12">
-            <div class="content__circle col-xs-4">
-              <div class="content__circle-outer">
-                <div class="content__circle-inner">
-                  <div class="content__circle-icon">
-                    <i class="fa fa-cog fa-3x" aria-hidden="true"></i>
+          <h4 class="text-regular">3 põhjust liitumiseks</h4>
+          <div class="row">
+            <div class="content__circles margin-top-32 col-xs-12">
+              <div class="content__circle col-xs-4">
+                <div class="content__circle-outer">
+                  <div class="content__circle-inner">
+                    <div class="content__circle-icon">
+                      <i class="fa fa-cog fa-3x" aria-hidden="true"></i>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="content__circle-text">
-                Katseta uusi teenuseid või tooteid enne teisi
-              </div>
-            </div>
-            <div class="content__circle col-xs-4">
-              <div class="content__circle-outer">
-                <div class="content__circle-inner">
-                  <div class="content__circle-icon">
-                    <i class="fa fa-user-md fa-3x" aria-hidden="true"></i>
-                  </div>
+                <div class="content__circle-text text-regular">
+                  Katseta uusi teenuseid või tooteid enne teisi
                 </div>
               </div>
-              <div class="content__circle-text">
-                Kogu preemiapunkte ja vaheta need auhindade vastu
-              </div>
-            </div>
-            <div class="content__circle col-xs-4">
-              <div class="content__circle-outer">
-                <div class="content__circle-inner">
-                  <div class="content__circle-icon">
-                    <i class="fa fa-star fa-3x" aria-hidden="true"></i>
+              <div class="content__circle col-xs-4">
+                <div class="content__circle-outer">
+                  <div class="content__circle-inner">
+                    <div class="content__circle-icon">
+                      <i class="fa fa-user-md fa-3x" aria-hidden="true"></i>
+                    </div>
                   </div>
                 </div>
+                <div class="content__circle-text text-regular">
+                  Mõjuta teenuse loomist sulle sobivas suunas
+                </div>
               </div>
-              <div class="content__circle-text">
-                Kogu preemiapunkte ja vaheta need auhindade vastu
+              <div class="content__circle col-xs-4">
+                <div class="content__circle-outer">
+                  <div class="content__circle-inner">
+                    <div class="content__circle-icon">
+                      <i class="fa fa-star fa-3x" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="content__circle-text text-regular">
+                  Kogu preemiapunkte ja vaheta need auhindade vastu
+                </div>
               </div>
             </div>
           </div>
-          <div class="content__button col-xs-12">
-            <a class="btn btn-default margin-top-32" href="#">
-              Olen käpp!
+          <div class="row">
+            <div class="margin-top-16">
+              <h3 class="text-bold">Tundub huvitav?</h3>
+              <h3 class="text-bold">Jäta oma e-posti aadress ja oled esimene, kellele teenuse valmides sellest märku anname!</h3>
+            </div>
+            <div class="col-xs-12 content__input margin-top-16">
+              <div class="form-group col-xs-4 col-xs-offset-4">
+                <label for="email">E-post:</label>
+                <input type="text" class="form-control" id="email">
+              </div>
+            </div>
+            <div class="content__button col-xs-12">
+              <a class="btn btn-default margin-top-32 col-xs-4 col-xs-offset-4" href="#">
+                Olen käpp!
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="block-container no-padding">
+        <div class="content--main">
+          <div class="margin-bottom-16 text-center">
+            <h2 class="text-big">Kuidas see töötab?</h2>
+          </div>
+          <div class="content__items margin-top-16 margin-bottom-32 col-xs-8 col-xs-offset-2">
+            <div class="content__item col-xs-4">
+              <div class="content__item-wrapper">
+                <div class="content__item-title">
+                  <h3 class="text-center text-40">1. VALI</h3>
+                </div>
+                <div class="content__item-body text-center margin-top-32">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nisi nisi.
+                </div>
+              </div>
+            </div>
+            <div class="content__item col-xs-4">
+              <div class="content__item-wrapper">
+                <div class="content__item-title">
+                  <h3 class="text-center text-40">2. OSALE</h3>
+                </div>
+                <div class="content__item-body text-center margin-top-32">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nisi nisi.
+                </div>
+              </div>
+            </div>
+            <div class="content__item col-xs-4">
+              <div class="content__item-wrapper">
+                <div class="content__item-title">
+                  <h3 class="text-center text-40">3. VÕIDA</h3>
+                </div>
+                <div class="content__item-body text-center margin-top-32">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nisi nisi.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row container--beige">
+      <div class="test-container no-margin-bottom no-padding-bottom">
+          <div class="margin-bottom-16 text-center text-white">
+            <h2 class="text-big">Aktiivsed testid</h2>
+          </div>
+          <div class="margin-bottom-32 text-center">
+            Vali meelepärane küsitlus või kasutajatest
+          </div>
+        <div class="test__items margin-top-16 col-xs-8 col-xs-offset-2">
+          <div class="test__item col-xs-4">
+            <div class="test__item-upper text-center">
+              <h3 class="text-bold margin-bottom-32">Tagasiside iDeeTestile</h3>
+              <h3>Kuidas kommenteerid iDeetesti teenust?</h3>
+            </div>
+            <div class="test__item-lower">
+              <h2 class="text-center text-40">5 Punkti</h2>
+            </div>
+          </div>
+          <div class="test__item col-xs-4">
+            <div class="test__item-upper text-center">
+              <h3 class="text-bold margin-bottom-32">Telia TV kasutajatest</h3>
+              <h3>Tule ja hinda Telia TV kasutajamugavust!</h3>
+            </div>
+            <div class="test__item-lower">
+              <h2 class="text-center text-40">10 Punkti</h2>
+            </div>
+          </div>
+          <div class="test__item col-xs-4">
+            <div class="test__item-upper text-center">
+              <h3 class="text-bold margin-bottom-32">Telia E-poe menüütest</h3>
+              <h3>Kas leiad e-poest sind huvitava kauba?</h3>
+            </div>
+            <div class="test__item-lower">
+              <h2 class="text-center text-40">15 Punkti</h2>
+            </div>
+          </div>
+          <div class="container-footer col-xs-12">
+            <h3 class="text-bold text-regular">30 preemiapunkti täitumisel saad need vahetada Telia e-poe kinkekaardi vastu väärtuses 30 €.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row container--green">
+      <div class="test-container col-xs-12">
+        <div class="margin-bottom-16 text-center text-white">
+          <h2 class="text-big text-regular">Leiad meid</h2>
+        </div>
+        <div class="info__items margin-top-32 margin-bottom-96 col-xs-9 col-xs-offset-3 no-padding">
+          <div class="info__item col-xs-8">
+            <a class="info__circle" href="#">
+              <div class="info__icon">
+                <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+              </div>
+            </a>
+            <a class="info__circle" href="#">
+              <div class="info__icon">
+                <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+              </div>
+            </a>
+            <a class="info__circle" href="#">
+              <div class="info__icon">
+                <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+              </div>
+            </a>
+            <a class="info__circle" href="#">
+              <div class="info__icon">
+                <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+              </div>
+            </a>
+            <a class="info__circle" href="#">
+              <div class="info__icon">
+                <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+              </div>
+            </a>
+            <a class="info__circle" href="#">
+              <div class="info__icon">
+                <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+              </div>
             </a>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="col-xs-8 col-xs-offset-2 block-container no-padding">
-      <div class="content--main">
-        <div class="margin-bottom-16 text-center">
-          <h1>How it works</h1>
-        </div>
-        <div class="content__items margin-top-16 col-xs-12">
-          <div class="content__item col-xs-4">
-            <div class="content__item-wrapper">
-              <div class="content__item-title">
-                <h4>1. Durable Quality Handbags</h4>
-              </div>
-              <div class="content__item-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nisi nisi.
-              </div>
-            </div>
-          </div>
-          <div class="content__item col-xs-4">
-            <div class="content__item-wrapper">
-              <div class="content__item-title">
-                <h4>2. Durable Quality Handbags</h4>
-              </div>
-              <div class="content__item-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nisi nisi.
-              </div>
-            </div>
-          </div>
-          <div class="content__item col-xs-4">
-            <div class="content__item-wrapper">
-              <div class="content__item-title">
-                <h4>3. Durable Quality Handbags</h4>
-              </div>
-              <div class="content__item-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nisi nisi.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-xs-8 col-xs-offset-2 test-container no-margin-bottom no-padding-bottom container--beige">
-        <div class="margin-bottom-16 text-center text-white">
-          <h1>Aktiivsed testid</h1>
-        </div>
-      <div class="test__items margin-top-16 col-xs-8 col-xs-offset-2">
-        <div class="test__item col-xs-4">
-          <div class="test__item-upper">
-          </div>
-          <div class="test__item-lower">
-            <h3 class="text-center">5 Points</h3>
-          </div>
-        </div>
-        <div class="test__item col-xs-4">
-          <div class="test__item-upper">
-          </div>
-          <div class="test__item-lower">
-            <h3 class="text-center">10 Points</h3>
-          </div>
-        </div>
-        <div class="test__item col-xs-4">
-          <div class="test__item-upper">
-          </div>
-          <div class="test__item-lower">
-            <h3 class="text-center">15 Points</h3>
-          </div>
-        </div>
-        <div class="container-footer col-xs-12">
-          <h3>Benefit example</h3>
-        </div>
-      </div>
-    </div>
-    <div class="col-xs-8 col-xs-offset-2 no-margin-top margin-bottom-8 test-container container--green">
-      <div class="margin-bottom-16 text-center text-white">
-        <h1>Alati oleme saadaval</h1>
-      </div>
-      <div class="info__items margin-top-16 col-xs-8 col-xs-offset-4 no-padding">
-        <div class="info__item col-xs-6">
-          <a class="info__circle" href="#">
-            <div class="info__icon">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </div>
-          </a>
-          <a class="info__circle" href="#">
-            <div class="info__icon">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </div>
-          </a>
-          <a class="info__circle" href="#">
-            <div class="info__icon">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </div>
-          </a>
-          <a class="info__circle" href="#">
-            <div class="info__icon">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </div>
-          </a>
-          <a class="info__circle" href="#">
-            <div class="info__icon">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </div>
-          </a>
-          <a class="info__circle" href="#">
-            <div class="info__icon">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="content__button text-center col-xs-12 margin-bottom-32 margin-top-32">
-        <a class="btn btn-default btn--pink margin-top-32" href="#">
-          Kirjutan
-        </a>
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.js"integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="crossorigin="anonymous"></script>
