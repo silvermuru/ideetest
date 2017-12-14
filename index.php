@@ -29,27 +29,36 @@
             <h3 class="hero__subtitle">Aita luua uusi teenuseid ja tooteid ning kogu preemiapunkte.<br />Mida rohkem vastad, seda enam võidad.</h3>
 
             <h4 class="hero__ctasubtitle">Tundub huvitav? Jäta oma e-posti aadress ja oled esimene,<br /> kellele teenuse valmides sellest märku anname!</h4>
-            <div class="content__input margin-top-16">
-                <div class="row row--center">
-                    <div class="col-sm-3">
-                        <form action="" class="form-horizontal">
+            <form action="backend.php" method="post">
+                <div class="content__input margin-top-16">
+                    <div class="row row--center">
+                        <div class="col-sm-3">
                             <div class="text-left">
                                 <label for="email" class="form-label">E-post:</label>
-                                <input type="text" class="form-control" name="email" id="email">
+                                <input type="email" class="form-control" name="email" id="email">
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="text-center margin-top-16">
-                <div class="row row--center">
-                    <div class="col-sm-3">
-                        <a class="btn btn--yellow btn-block" href="#">
-                            Olen käpp!
-                        </a>
+                <div class="text-center margin-top-16">
+                    <div class="row row--center">
+                        <div class="col-sm-3">
+                            <?php
+                            if (isset($_GET['success'])) {
+                                $buttonText = 'Salvestatud!';
+                                $buttonColor = 'green';
+                            } else {
+                                $buttonText = 'Olen käpp!';
+                                $buttonColor = 'yellow';
+                            }
+                            ?>
+                            <button type="submit" class="btn btn--<?php echo $buttonColor; ?> btn-block" href="#">
+                                <?php echo $buttonText; ?>
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </form>
 
             <div class="content__body margin-top-32 text-center">
                 <h4 class="hero__ctatitle">3 põhjust liitumiseks</h4>
@@ -138,13 +147,15 @@
                     <div class="card">
                         <input type="radio" id="input-1" name="test" class="card__input">
                         <label for="input-1" class="card__label">
-                            <div class="card__upper text-center">
-                                <h3 class="card__upper-title">Tagasiside iDeeTestile</h3>
-                                <h4 class="card__upper-subtitle">Kuidas kommenteerid iDeetesti teenust?</h4>
-                            </div>
-                            <div class="card__lower">
-                                <h2 class="card__lower-title">5 punkti</h2>
-                            </div>
+                            <a href="tests.html" class="card__link">
+                                <div class="card__upper text-center">
+                                    <h3 class="card__upper-title">Tagasiside iDeeTestile</h3>
+                                    <h4 class="card__upper-subtitle">Kuidas kommenteerid iDeetesti teenust?</h4>
+                                </div>
+                                <div class="card__lower">
+                                    <h2 class="card__lower-title">5 punkti</h2>
+                                </div>
+                            </a>
                         </label>
                     </div>
                 </div>
@@ -152,13 +163,15 @@
                     <div class="card">
                         <input type="radio" id="input-2" name="test" class="card__input">
                         <label for="input-2" class="card__label">
-                            <div class="card__upper text-center">
-                                <h3 class="card__upper-title">Telia TV kasutajatest</h3>
-                                <h4 class="card__upper-subtitle">Tule ja hinda<br /> Telia TV<br /> kasutajamugavust!</h4>
-                            </div>
-                            <div class="card__lower">
-                                <h2 class="card__lower-title">10 punkti</h2>
-                            </div>
+                            <a href="tests.html" class="card__link">
+                                <div class="card__upper text-center">
+                                    <h3 class="card__upper-title">Telia TV kasutajatest</h3>
+                                    <h4 class="card__upper-subtitle">Tule ja hinda<br /> Telia TV<br /> kasutajamugavust!</h4>
+                                </div>
+                                <div class="card__lower">
+                                    <h2 class="card__lower-title">10 punkti</h2>
+                                </div>
+                            </a>
                         </label>
                     </div>
                 </div>
@@ -166,13 +179,15 @@
                     <div class="card">
                         <input type="radio" id="input-3" name="test" class="card__input">
                         <label for="input-3" class="card__label">
-                            <div class="card__upper text-center">
-                                <h3 class="card__upper-title">Telia E-poe menüütest</h3>
-                                <h4 class="card__upper-subtitle">Kas leiad e-poest sind huvitava kauba?</h4>
-                            </div>
-                            <div class="card__lower">
-                                <h2 class="card__lower-title">15 punkti</h2>
-                            </div>
+                            <a href="tests.html" class="card__link">
+                                <div class="card__upper text-center">
+                                    <h3 class="card__upper-title">Telia E-poe menüütest</h3>
+                                    <h4 class="card__upper-subtitle">Kas leiad e-poest sind huvitava kauba?</h4>
+                                </div>
+                                <div class="card__lower">
+                                    <h2 class="card__lower-title">15 punkti</h2>
+                                </div>
+                            </a>
                         </label>
                     </div>
                 </div>

@@ -247,6 +247,20 @@ body {
     border-top-right-radius: 15px;
     border: 1px solid var(--white);
     padding: 16px;
+    min-height: 200px;
+}
+
+.card__link:hover .card__upper {
+    background: #85bac0;
+}
+
+.card__link {
+    color: var(--grey-d);
+}
+
+.card__link:hover {
+    color: var(--grey-d);
+    text-decoration: none;
 }
 
 .card__lower {
@@ -313,6 +327,16 @@ body {
 
 .btn--yellow:hover {
     background: var(--yellow-d);
+}
+
+.btn--green {
+    background: #95DB92;
+    border-radius: 30px;
+    padding: 10px 60px 10px 60px;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: calc(var(--letter-spacing-base) / 2);
+    color: var(--grey-d);
 }
 
 .form-label {
