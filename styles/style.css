@@ -181,34 +181,54 @@ body {
   margin-top: 8px !important;
 }
 
-.block-container {
-  padding: 32px 48px 16px 48px;
-  margin: 32px 0 32px 0;
+.card {
+    position: relative;
 }
 
-.test-container {
-  padding: 56px 48px 16px 48px;
-  margin: 32px 0 32px 0;
+.card__input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
 }
 
-.test__item-upper {
-  background-color: #F7CDCC;
-  height: 250px;
-  padding: 32px;
+.card__label {
+    margin-bottom: 0;
 }
 
-.test__item-lower {
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 120px;
+.card__upper {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 1px solid var(--white);
+    padding: 18px;
 }
 
-.container-footer {
-  margin-top: 64px;
-  margin-bottom: 48px;
-  text-align: center;
+.card__lower {
+    background: var(--white);
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border: 1px solid var(--white);
+    padding: 18px 18px 30px;
+}
+
+.card__upper-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card__upper-subtitle {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card__lower-title {
+    color: var(--yellow);
+    font-size: 31px;
+    margin: 0;
+    text-align: center;
+    font-weight: 300;
 }
 
 .info__circle {
