@@ -306,6 +306,7 @@ body {
   position: relative;
   height: 56px;
   width: 56px;
+  margin: 5px;
 }
 
 .info__icon {
@@ -316,9 +317,9 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.info__item {
-  display: flex;
-  justify-content: space-evenly;
+.info {
+    display: flex;
+    justify-content: center;
 }
 
 .btn--pink {

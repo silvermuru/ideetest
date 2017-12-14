@@ -193,8 +193,8 @@
     <div class="container-fluid container--footer">
         <div class="margin-top-64 margin-bottom-64">
             <h2 class="text-big text-white text-center">Leiad meid</h2>
-            <div class="info__items margin-top-32 margin-bottom-96 col-xs-9 col-xs-offset-3 no-padding">
-                <div class="info__item col-xs-8">
+            <div class="margin-top-32 margin-bottom-96 no-padding">
+                <div class="info">
                     <a class="info__circle" href="#">
                         <div class="info__icon">
                             <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
