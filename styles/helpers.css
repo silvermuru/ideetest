@@ -26,8 +26,16 @@
   margin-bottom: 64px;
 }
 
+.left-15 {
+  left: 15px;
+}
+
 .text-white {
   color: white;
+}
+
+.text-black {
+  color: black;
 }
 
 .text-40 {
@@ -79,4 +87,8 @@
 .row--center {
     display: flex;
     justify-content: center;
+}
+
+.underlined {
+  text-decoration: underline;
 }
