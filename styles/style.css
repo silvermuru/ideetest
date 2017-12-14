@@ -22,7 +22,12 @@ body {
   position: relative;
 }
 
+.quiz_section {
+  text-align: center !important;
+}
+
 .qsm-btn {
+  display: inline-block;
   background-color: var(--yellow);
   border-radius: 30px;
   padding: 10px 60px 10px 60px;
