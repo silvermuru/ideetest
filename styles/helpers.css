@@ -90,7 +90,14 @@
 
 .row--center {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+@media (min-width: 720px) {
+    .row--center {
+        flex-direction: row;
+    }
 }
 
 .underlined {

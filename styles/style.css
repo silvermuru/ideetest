@@ -114,6 +114,7 @@ body {
   align-items: center;
   display: flex;
   color: var(--white);
+  margin-right: 20px;
 }
 
 .header__icon {
@@ -138,7 +139,7 @@ body {
 }
 
 .content__title {
-  color: white;
+  color: var(--white);
 }
 
 .content__circle-outer {
@@ -171,8 +172,8 @@ body {
 }
 
 .content__circle-text {
-  font-size: 18px;
   margin-top: 8px;
+  margin-bottom: 20px;
   color: var(--white);
   font-weight: 300;
   font-size: 20px;
@@ -240,16 +241,29 @@ body {
 
 .cards {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
+@media (min-width: 720px) {
+    .cards {
+        flex-direction: row;
+    }
+}
+
 .card {
-    width: 190px;
     margin: 15px;
+}
+
+@media (min-width: 720px) {
+    .card {
+        width: 190px;
+    }
 }
 
 .card__label {
   margin-bottom: 0;
+  width: 100%;
 }
 
 .card__upper {
