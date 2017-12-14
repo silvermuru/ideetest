@@ -26,6 +26,10 @@ body {
   text-align: center !important;
 }
 
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
 .qsm-btn {
   display: inline-block;
   background-color: var(--yellow);

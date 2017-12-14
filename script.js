@@ -15,3 +15,12 @@ $('.ending').on('click', function(e) {
     }, 2000);
   }, 100);
 });
+
+$('.active').on('click', function(e) {
+  e.preventDefault();
+  setTimeout(function () {
+    $('html, body').animate({
+        scrollTop: $("#active").offset().top
+    }, 2000);
+  }, 100);
+});

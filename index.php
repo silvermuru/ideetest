@@ -19,9 +19,9 @@
                 <i class="fa fa-lightbulb-o fa-4x header__icon" aria-hidden="true"></i><h2>iDeeTest</h2>
             </div>
             <div class="header__links">
-                <a href="#" class="header__link text-white">Aktiivsed küsitlused</a>
-                <a href="#" class="header__link text-white">Preemiapunktid</a>
-                <a href="#" class="header__link text-white">Küsi meilt</a>
+                <a href="#" class="header__link text-white active">Aktiivsed küsitlused</a>
+                <a href="#" class="header__link text-white cursor-not-allowed">Preemiapunktid</a>
+                <a href="#" class="header__link text-white cursor-not-allowed">Küsi meilt</a>
             </div>
         </header>
         <div class="content">
@@ -136,7 +136,7 @@
         </div>
     </div>
 
-    <div class="container-fluid container--tests">
+    <div id="active" class="container-fluid container--tests">
         <div class="margin-top-64 margin-bottom-64">
             <h2 class="text-big text-white text-center">Aktiivsed testid</h2>
             <div class="margin-bottom-32 text-center content__item-body">
@@ -160,7 +160,7 @@
                 <div class="card">
                     <input type="radio" id="input-2" name="test" class="card__input">
                     <label for="input-2" class="card__label">
-                        <a href="tests.html" class="card__link">
+                        <a href="tests.html" class="card__link cursor-not-allowed">
                             <div class="card__upper text-center">
                                 <h3 class="card__upper-title">Telia TV kasutajatest</h3>
                                 <h4 class="card__upper-subtitle">Tule ja hinda<br /> Telia TV<br /> kasutajamugavust!</h4>
@@ -174,7 +174,7 @@
                 <div class="card">
                     <input type="radio" id="input-3" name="test" class="card__input">
                     <label for="input-3" class="card__label">
-                        <a href="tests.html" class="card__link">
+                        <a href="tests.html" class="card__link cursor-not-allowed">
                             <div class="card__upper text-center">
                                 <h3 class="card__upper-title">Telia E-poe menüütest</h3>
                                 <h4 class="card__upper-subtitle">Kas leiad e-poest sind huvitava kauba?</h4>
