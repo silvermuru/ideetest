@@ -238,6 +238,16 @@ body {
   padding: 32px;
 }
 
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 190px;
+    margin: 15px;
+}
+
 .card__label {
   margin-bottom: 0;
 }

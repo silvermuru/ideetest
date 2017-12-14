@@ -142,54 +142,48 @@
             <div class="margin-bottom-32 text-center content__item-body">
                 Vali meelepärane küsitlus või kasutajatest
             </div>
-            <div class="row row--center margin-top-16">
-                <div class="col-sm-4 col-md-2">
-                    <div class="card">
-                        <input type="radio" id="input-1" name="test" class="card__input">
-                        <label for="input-1" class="card__label">
-                            <a href="tests.html" class="card__link">
-                                <div class="card__upper text-center">
-                                    <h3 class="card__upper-title">Tagasiside iDeeTestile</h3>
-                                    <h4 class="card__upper-subtitle">Kuidas kommenteerid iDeetesti teenust?</h4>
-                                </div>
-                                <div class="card__lower">
-                                    <h2 class="card__lower-title">5 punkti</h2>
-                                </div>
-                            </a>
-                        </label>
-                    </div>
+            <div class="cards margin-top-16">
+                <div class="card">
+                    <input type="radio" id="input-1" name="test" class="card__input">
+                    <label for="input-1" class="card__label">
+                        <a href="tests.html" class="card__link">
+                            <div class="card__upper text-center">
+                                <h3 class="card__upper-title">Tagasiside iDeeTestile</h3>
+                                <h4 class="card__upper-subtitle">Kuidas kommenteerid iDeetesti teenust?</h4>
+                            </div>
+                            <div class="card__lower">
+                                <h2 class="card__lower-title">5 punkti</h2>
+                            </div>
+                        </a>
+                    </label>
                 </div>
-                <div class="col-sm-3 col-md-2">
-                    <div class="card">
-                        <input type="radio" id="input-2" name="test" class="card__input">
-                        <label for="input-2" class="card__label">
-                            <a href="tests.html" class="card__link">
-                                <div class="card__upper text-center">
-                                    <h3 class="card__upper-title">Telia TV kasutajatest</h3>
-                                    <h4 class="card__upper-subtitle">Tule ja hinda<br /> Telia TV<br /> kasutajamugavust!</h4>
-                                </div>
-                                <div class="card__lower">
-                                    <h2 class="card__lower-title">10 punkti</h2>
-                                </div>
-                            </a>
-                        </label>
-                    </div>
+                <div class="card">
+                    <input type="radio" id="input-2" name="test" class="card__input">
+                    <label for="input-2" class="card__label">
+                        <a href="tests.html" class="card__link">
+                            <div class="card__upper text-center">
+                                <h3 class="card__upper-title">Telia TV kasutajatest</h3>
+                                <h4 class="card__upper-subtitle">Tule ja hinda<br /> Telia TV<br /> kasutajamugavust!</h4>
+                            </div>
+                            <div class="card__lower">
+                                <h2 class="card__lower-title">10 punkti</h2>
+                            </div>
+                        </a>
+                    </label>
                 </div>
-                <div class="col-sm-3 col-md-2">
-                    <div class="card">
-                        <input type="radio" id="input-3" name="test" class="card__input">
-                        <label for="input-3" class="card__label">
-                            <a href="tests.html" class="card__link">
-                                <div class="card__upper text-center">
-                                    <h3 class="card__upper-title">Telia E-poe menüütest</h3>
-                                    <h4 class="card__upper-subtitle">Kas leiad e-poest sind huvitava kauba?</h4>
-                                </div>
-                                <div class="card__lower">
-                                    <h2 class="card__lower-title">15 punkti</h2>
-                                </div>
-                            </a>
-                        </label>
-                    </div>
+                <div class="card">
+                    <input type="radio" id="input-3" name="test" class="card__input">
+                    <label for="input-3" class="card__label">
+                        <a href="tests.html" class="card__link">
+                            <div class="card__upper text-center">
+                                <h3 class="card__upper-title">Telia E-poe menüütest</h3>
+                                <h4 class="card__upper-subtitle">Kas leiad e-poest sind huvitava kauba?</h4>
+                            </div>
+                            <div class="card__lower">
+                                <h2 class="card__lower-title">15 punkti</h2>
+                            </div>
+                        </a>
+                    </label>
                 </div>
             </div>
             <h4 class="hero__subtitle margin-top-64">30 preemiapunkti täitumisel saad need vahetada Telia e-poe kinkekaardi vastu väärtuses 30 €.</h4>
