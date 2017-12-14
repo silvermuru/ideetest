@@ -24,3 +24,11 @@ $('.active').on('click', function(e) {
     }, 2000);
   }, 100);
 });
+
+$('.card__disabled').on('click', function(e) {
+  e.preventDefault();
+});
+
+$('.link__disabled').on('click', function(e) {
+  e.preventDefault();
+});
