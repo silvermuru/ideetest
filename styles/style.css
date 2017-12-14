@@ -22,6 +22,16 @@ body {
   position: relative;
 }
 
+.qsm-btn {
+  background-color: var(--yellow);
+  border-radius: 30px;
+  padding: 10px 60px 10px 60px;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: calc(var(--letter-spacing-base) / 2);
+  color: var(--grey-d);
+}
+
 .container-custom-triangle {
   content: "";
   border-color: transparent transparent #FFF transparent;
